@@ -56,6 +56,7 @@ class Book {
 
   static addBook(book, id) {
     bookCard.innerHTML += `
+        <h2>All awesome books</h2>
         <div id=${id}>
         <p>${book.title}</p>
         <p>${book.author}</p>
